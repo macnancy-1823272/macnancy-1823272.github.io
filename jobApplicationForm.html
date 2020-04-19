@@ -1,0 +1,174 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Job Application</title>
+</head>
+<body>
+
+<h2>Job Application For Museum (AC)</h2>
+
+<form action="http://gclass.alexburner.com/formtest.php" method="post">
+
+	<fieldset>
+		<legend>Account</legend>
+		<div class="field">
+			<label>Nintendo Username:</label> 
+			<input type="text" name="email">
+		</div>
+		<div class="field">
+			<label>Password:</label> 
+			<input type="password" name="password">
+		</div>
+		<div class="field">
+			<label>Repeat password:</label> 
+			<input type="password" name="password_r">
+		</div>
+	</fieldset>
+
+	<fieldset>
+		<legend>Personal Information</legend>
+		<div class="field">
+			<label>Full Name:</label> 
+			<input type="text" name="name">
+		</div>
+		<div class="field">
+			<label>City/Town/Island Name:</label> 
+			<input type="text" name="town">
+        </div>
+        <div class="field">
+            <label>Race:</label>
+            <select name="jobs"> 
+                <option value="Human">Human</option> 
+                <option value="Tanuki">Tanuki</option>
+                <option value="Owl">Owl</option>
+                <option value="Turtle">Turtle</option> 
+                <option value="Cat">Cat</option> 
+                <option value="Hamster">Hamster</option> 
+                <option value="Seagull">Seagull</option>
+                <option value="Rabbit">Rabbit</option>
+                <option value="Tiger">Tiger</option>
+                <option value="Hedgehog">Hedgehog</option>
+            </select> 
+
+        </div>
+        <div class = "field">
+            <label> Current Occupation: </label>
+            <select name="jobs"> 
+                <option value="Villager">Villager</option> 
+                <option value="Mayor">Mayor</option> 
+                <option value="Shop Keeper at Nook's Cranny">Shop Keeper at Nook's Cranny</option> 
+                <option value="Seamstress at Able Sisters">Seamstress at Able Sisters</option> 
+            </select>
+        </div>
+        <div class = "field">
+            <label> Which part of the museum are you applying for? </label>
+            <select name="jobs">
+                <option value="Museum reception"> Main Meseum </option> 
+                <option value="The Roost">The Roost (Cafe)</option> 
+                <option value="Observatory">Observatory</option> 
+                
+            </select>
+        </div>
+	</fieldset>
+
+	<fieldset>
+		<legend>Availability & Other Important Questions</legend>
+		<div class="field">
+			<label>Are you a morning bird or a night owl?</label> 
+			<input type="radio" name="legal" value="yes">Morning Bird
+			<input type="radio" name="legal" value="no">Night Owl
+        </div>
+            <div class="field">
+                <label>Are you afraid of bugs?</label> 
+                <input type="radio" name="legal" value="yes">Yes
+                <input type="radio" name="legal" value="no">No
+        </div>
+        <div class="field">
+            <label> Are you able to assess fossils?</label> 
+			<input type="radio" name="legal" value="yes">Yes
+			<input type="radio" name="legal" value="no">No
+        </div>
+        <div class="field">
+            <label> Are you an owl?</label> 
+			<input type="radio" name="legal" value="yes">Yes
+            <input type="radio" name="legal" value="no">No
+            <input type="radio" name="legal" value="no">Maybe
+        </div>
+        <div class="field">
+            <label> Do you know Blathers?</label> 
+			<input type="radio" name="legal" value="yes">Yes
+            <input type="radio" name="legal" value="no">No
+            <input type="radio" name="legal" value="no">WHO?
+        </div>
+
+        <div class="field">
+            <label> Check all that apply:</label>
+            <input type="checkbox" 
+            name="Talking" value="skill">I love to talk<br> 
+            <input type="checkbox" 
+            name="skill" value="skill"> I have collected over 20 artifacts
+            <input type="checkbox" 
+            name="debt" value="skill">I have finished paying all of my debt from Tom Nook<br> 
+            <input type="checkbox" 
+            name="Talking" value="skill">I have been a character in AC before New Horizon<br> 
+
+
+        </div>
+
+
+		<div class="field">
+			<label> Hours available</label>
+			<table>
+				<tr>
+					<td></td>
+					<th>Sun</th>
+					<th>Mon</th>
+					<th>Tue</th>
+					<th>Wed</th>
+					<th>Thu</th>
+					<th>Fri</th>
+					<th>Sat</th>
+				</tr>
+				<tr>
+					<th>From</th>
+					<td><input type="time" size="5" name="su_from"></td>
+					<td><input type="time" size="5" name="mo_from"></td>
+					<td><input type="time" size="5" name="tu_from"></td>
+					<td><input type="time" size="5" name="we_from"></td>
+					<td><input type="time" size="5" name="th_from"></td>
+					<td><input type="time" size="5" name="fr_from"></td>
+					<td><input type="time" size="5" name="sa_from"></td>
+				</tr>
+				<tr>
+					<th>Until</th>
+					<td><input type="time" size="5" name="su_until"></td>
+					<td><input type="time" size="5" name="mo_until"></td>
+					<td><input type="time" size="5" name="tu_until"></td>
+					<td><input type="time" size="5" name="we_until"></td>
+					<td><input type="time" size="5" name="th_until"></td>
+					<td><input type="time" size="5" name="fr_until"></td>
+					<td><input type="time" size="5" name="sa_until"></td>
+				</tr>
+			</table>
+		</div>
+	</fieldset>
+
+	<fieldset>
+		<legend>Personal Statement</legend>
+		<div class="field">
+			<label>Are you knowledgeable when it comes to bugs/fossils/and sealife?</label><br>
+			<textarea name="deserve" rows="6" cols="60"></textarea>
+		</div>
+		<div class="field">
+			<label>What is your favorite artifact in the museum and name one fact about it:</label><br>
+			<textarea name="project" rows="6" cols="60"></textarea>
+		</div>
+	</fieldset>
+
+	<input type="submit" value="Submit form">
+
+</form>
+</body>
+</html>
